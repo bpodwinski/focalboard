@@ -11,8 +11,9 @@
     z-index: 15;
     background-color: rgb(var(--center-channel-bg-rgb));
     color: rgb(var(--center-channel-color-rgb));
+    border: solid 1px rgba(var(--center-channel-color-rgb), 0.16);
     border-radius: var(--default-rad);
-    box-shadow: var(--elevation-4);
+    box-shadow: var(--elevation-2);
 
     &.fixed {
         position: fixed;
@@ -21,7 +22,7 @@
     .menu-contents {
         display: flex;
         flex-direction: column;
-        padding: 8px 0;
+        padding: 10px;
         min-width: 240px;
     }
 
